@@ -1,18 +1,32 @@
-# Welcome to your Lovable project
+# Welcome
 
-## Project info
+## Technologies Used
 
-**URL**: https://lovable.dev/projects/c159f961-59e9-4135-86ef-d42a904db6f4
+This project uses a modern and efficient stack for web development:
+
+1. **Vite**: A modern and fast build tool for front-end projects. It offers a development server with Hot Module Replacement (HMR) and an optimized build process, resulting in faster startup and compilation times.
+
+2. **React**: The main JavaScript library used to build the user interface. React allows creating reusable components and efficiently managing the application state.
+
+3. **TypeScript**: A typed superset of JavaScript. It adds optional static typing to JavaScript, which helps detect errors earlier in the development process and improves code maintainability.
+
+4. **Tailwind CSS**: A utility-first CSS framework. It allows for quickly styling components using pre-defined classes, which speeds up development and maintains design consistency.
+
+5. **shadcn/ui**: A component library mentioned in the project. It provides pre-built and styled React components that can be easily customized and integrated into the project.
+
+6. **Vercel**: The project is configured to be hosted on Vercel. Vercel is a hosting and deployment platform that integrates well with React projects and offers features such as automatic deployments, pull request previews, and easy configuration of custom domains.
+
+Additionally, the project uses other tools and libraries to enhance development and functionality:
+
+- **ESLint**: For linting and maintaining code quality.
+- **Prettier**: For consistent code formatting.
+- **@tanstack/react-query**: For efficient state management and data requests.
+
+The `vite.config.ts` file shows some project-specific configurations, such as the use of the `@vitejs/plugin-react-swc` plugin for fast React compilation, and the configuration of aliases for cleaner imports.
+
+This set of technologies forms a modern and efficient stack for web development, offering a good development experience and optimized performance for the end user.
 
 ## How can I edit this code?
-
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/c159f961-59e9-4135-86ef-d42a904db6f4) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
 
 **Use your preferred IDE**
 
@@ -49,21 +63,3 @@ npm run dev
 - Select the "Codespaces" tab.
 - Click on "New codespace" to launch a new Codespace environment.
 - Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/c159f961-59e9-4135-86ef-d42a904db6f4) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
